@@ -597,6 +597,9 @@
     .sidebar-menu ul li {
         margin-bottom: 27px;
     }
+    .side-language{
+        overflow-y: scroll;
+    }
     #banner {
         padding-top: 163px;
         padding-bottom: 75px;
