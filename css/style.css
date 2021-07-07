@@ -2505,6 +2505,7 @@ body {
 
 .item-foot-gal img {
     border: 1px solid #191919;
+    display: block;
 }
 
 /*=======Copyright Area css=======*/

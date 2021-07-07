@@ -269,6 +269,10 @@
         font-size: 14px;
         line-height: 22px;
     }
+    #catalog .popular h2 {
+        text-align: start;
+        font-size: 36px;
+    }
     .product-details h5 {
         font-size: 20px;
     }
@@ -474,6 +478,10 @@
         text-align: center;
         margin-bottom: 40px;
     }
+    #catalog .popular h2 {
+        text-align: start;
+        font-size: 35px;
+    }
     .catalog-browse button {
         font-size: 14px;
         padding: 7px 12px;
@@ -596,9 +604,6 @@
     }
     .sidebar-menu ul li {
         margin-bottom: 27px;
-    }
-    .side-language{
-        overflow-y: scroll;
     }
     #banner {
         padding-top: 163px;
@@ -792,6 +797,14 @@
     .catalog-browse button {
         font-size: 14px;
         padding: 7px 12px;
+    }
+    #catalog .popular h2 {
+        font-size: 22px;
+        text-align: start;
+    }
+    #catalog .wishlist a {
+        font-size: 19px;
+        line-height: 0;
     }
     #store {
         padding-top: 40px;
