@@ -1,6 +1,6 @@
 $(function() {
   'use strict';
- 
+  
     //Sticky-menu & Back-to-top
     $('.back-to-top').on('click', function () {
       $('html,body').animate({scrollTop:0},1000);
@@ -199,6 +199,11 @@ $(function() {
       }
     });
   });
+
+  //Preloader-js
+  $(window).on('load',function(){
+    $('.preloader').delay(3000).fadeOut(300);
+  });
   
 });
 
@@ -253,19 +258,6 @@ rev.slick({
   pauseOnHover: false,
   infinite: true,
 });
-
-
-
-
-
-// const updateProperties = (elem, state) => {
-//   elem.style.setProperty('--x', `${state.x}px`)
-//   elem.style.setProperty('--y', `${state.y}px`)
-//   elem.style.setProperty('--width', `${state.width}px`)
-//   elem.style.setProperty('--height', `${state.height}px`)
-//   elem.style.setProperty('--radius', state.radius)
-//   elem.style.setProperty('--scale', state.scale)
-// }
 
 //Custom-cursor-js
 const cursorInner = document.querySelector('.cursor-inner');
