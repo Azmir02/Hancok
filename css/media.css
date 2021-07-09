@@ -899,4 +899,9 @@
     #wishlist .wishlist-content p {
         font-size: 17px;
     }
+    .preloader h2 {
+        font-size: 26px;
+        line-height: 0.8;
+        margin-top: -121px;
+    }
 }

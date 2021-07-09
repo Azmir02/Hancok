@@ -202,7 +202,7 @@ $(function() {
 
   //Preloader-js
   $(window).on('load',function(){
-    $('.preloader').delay(3000).fadeOut(300);
+    $('.preloader').delay(1080).fadeOut(300);
   });
   
 });
